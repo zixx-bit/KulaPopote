@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         btnSignUp = findViewById(R.id.btnSignUp);
 
         txtSlogan = findViewById(R.id.textSlogan);
-        //Typeface face =Typeface.createFromAsset(getAssets(), fonts/backslash.TTf);
-        //txtSlogan.setTypeface(face);
+        Typeface face =Typeface.createFromAsset(getAssets(), fonts/backslash.TTf);
+        txtSlogan.setTypeface(face);
 
 //        init paper
         Paper.init(this);
